@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1150 692" width="1150" height="692" role="img">
+<title>Security ID collection: our system and its external counterparties</title>
+<defs>
+<marker id="fwd" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M1 1L9 5L1 9" fill="none" stroke="context-stroke" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+</marker>
+<marker id="rev" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M1 1L9 5L1 9" fill="none" stroke="context-stroke" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+</marker>
+</defs>
+<rect width="1150" height="692" fill="#ffffff"/>
+<text x="60" y="55.849999999999994" font-family='system-ui, -apple-system, "PingFang SC", "Helvetica Neue", Arial, sans-serif' font-size="23" fill="#1e1e1e" text-anchor="start"><tspan x="60" dy="0">Security ID collection: our system and its external counterparties</tspan></text>
+<text x="60" y="87.3" font-family='system-ui, -apple-system, "PingFang SC", "Helvetica Neue", Arial, sans-serif' font-size="14" fill="#6b6b68" text-anchor="start"><tspan x="60" dy="0">System A (SFTP) → System B (REST) · only the counterparty changes, internal stages stay the same</tspan></text>
+<rect x="440" y="140" width="260" height="86" rx="8" fill="#f2f1ee" stroke="#9a9a96" stroke-width="2" stroke-dasharray="8 6" />
+<text x="570" y="170.05" font-family='system-ui, -apple-system, "PingFang SC", "Helvetica Neue", Arial, sans-serif' font-size="14" fill="#5f5e5a" text-anchor="middle"><tspan x="570" dy="0">System A</tspan><tspan x="570" dy="17.5">External · SFTP file exchange</tspan><tspan x="570" dy="17.5">being decommissioned</tspan></text>
+<rect x="790" y="140" width="260" height="86" rx="8" fill="#e6f1fb" stroke="#185fa5" stroke-width="2" />
+<text x="920" y="170.05" font-family='system-ui, -apple-system, "PingFang SC", "Helvetica Neue", Arial, sans-serif' font-size="14" fill="#0c447c" text-anchor="middle"><tspan x="920" dy="0">System B</tspan><tspan x="920" dy="17.5">External · REST API</tspan><tspan x="920" dy="17.5">new integration</tspan></text>
+<line x1="708" y1="183" x2="782" y2="183" stroke="#a32d2d" stroke-width="2" stroke-dasharray="8 6" marker-end="url(#fwd)" marker-start="url(#rev)" />
+<text x="714" y="164.35" font-family='system-ui, -apple-system, "PingFang SC", "Helvetica Neue", Arial, sans-serif' font-size="13" fill="#a32d2d" text-anchor="start"><tspan x="714" dy="0">replaces</tspan></text>
+<rect x="60" y="280" width="1032" height="190" rx="8" fill="#f6faff" stroke="#85b7eb" stroke-width="2" />
+<text x="82" y="300.35" font-family='system-ui, -apple-system, "PingFang SC", "Helvetica Neue", Arial, sans-serif' font-size="13" fill="#185fa5" text-anchor="start"><tspan x="82" dy="0">Our system · Airflow DAG</tspan></text>
+<rect x="90" y="350" width="170" height="76" rx="8" fill="#ffffff" stroke="#3f3f3c" stroke-width="2" />
+<text x="175.0" y="383.8" font-family='system-ui, -apple-system, "PingFang SC", "Helvetica Neue", Arial, sans-serif' font-size="14" fill="#1e1e1e" text-anchor="middle"><tspan x="175.0" dy="0">Sensor ×N</tspan><tspan x="175.0" dy="17.5">await files</tspan></text>
+<rect x="294" y="350" width="170" height="76" rx="8" fill="#ffffff" stroke="#3f3f3c" stroke-width="2" />
+<text x="379.0" y="383.8" font-family='system-ui, -apple-system, "PingFang SC", "Helvetica Neue", Arial, sans-serif' font-size="14" fill="#1e1e1e" text-anchor="middle"><tspan x="379.0" dy="0">Collect</tspan><tspan x="379.0" dy="17.5">merge · dedupe</tspan></text>
+<rect x="498" y="350" width="170" height="76" rx="8" fill="#dbe9f8" stroke="#185fa5" stroke-width="2" />
+<text x="583.0" y="383.8" font-family='system-ui, -apple-system, "PingFang SC", "Helvetica Neue", Arial, sans-serif' font-size="14" fill="#1e1e1e" text-anchor="middle"><tspan x="583.0" dy="0">Exchange</tspan><tspan x="583.0" dy="17.5">request · response</tspan></text>
+<rect x="702" y="350" width="170" height="76" rx="8" fill="#ffffff" stroke="#3f3f3c" stroke-width="2" />
+<text x="787.0" y="383.8" font-family='system-ui, -apple-system, "PingFang SC", "Helvetica Neue", Arial, sans-serif' font-size="14" fill="#1e1e1e" text-anchor="middle"><tspan x="787.0" dy="0">Output</tspan><tspan x="787.0" dy="17.5">aggregate · write</tspan></text>
+<rect x="906" y="350" width="170" height="76" rx="8" fill="#ffffff" stroke="#3f3f3c" stroke-width="2" />
+<text x="991.0" y="383.8" font-family='system-ui, -apple-system, "PingFang SC", "Helvetica Neue", Arial, sans-serif' font-size="14" fill="#1e1e1e" text-anchor="middle"><tspan x="991.0" dy="0">Ready</tspan><tspan x="991.0" dy="17.5">file available</tspan></text>
+<line x1="264" y1="388.0" x2="290" y2="388.0" stroke="#1e1e1e" stroke-width="2" marker-end="url(#fwd)" />
+<line x1="468" y1="388.0" x2="494" y2="388.0" stroke="#1e1e1e" stroke-width="2" marker-end="url(#fwd)" />
+<line x1="672" y1="388.0" x2="698" y2="388.0" stroke="#1e1e1e" stroke-width="2" marker-end="url(#fwd)" />
+<line x1="876" y1="388.0" x2="902" y2="388.0" stroke="#1e1e1e" stroke-width="2" marker-end="url(#fwd)" />
+<line x1="560" y1="350" x2="570" y2="226" stroke="#5f5e5a" stroke-width="2" stroke-dasharray="8 6" marker-end="url(#fwd)" marker-start="url(#rev)" />
+<line x1="640" y1="350" x2="920" y2="226" stroke="#185fa5" stroke-width="2" marker-end="url(#fwd)" marker-start="url(#rev)" />
+<text x="300" y="253.4" font-family='system-ui, -apple-system, "PingFang SC", "Helvetica Neue", Arial, sans-serif' font-size="12" fill="#5f5e5a" text-anchor="start"><tspan x="300" dy="0">SFTP request / response file</tspan></text>
+<text x="616" y="253.4" font-family='system-ui, -apple-system, "PingFang SC", "Helvetica Neue", Arial, sans-serif' font-size="12" fill="#185fa5" text-anchor="start"><tspan x="616" dy="0">REST request / response data</tspan></text>
+<rect x="60" y="508" width="1032" height="132" rx="8" fill="#fbfaf7" stroke="#dcdad4" stroke-width="2" />
+<text x="82" y="535.3" font-family='system-ui, -apple-system, "PingFang SC", "Helvetica Neue", Arial, sans-serif' font-size="14" fill="#185fa5" text-anchor="start"><tspan x="82" dy="0">What changes</tspan></text>
+<text x="82" y="565.3" font-family='system-ui, -apple-system, "PingFang SC", "Helvetica Neue", Arial, sans-serif' font-size="14" fill="#1e1e1e" text-anchor="start"><tspan x="82" dy="0">· Sensor ×N / Collect: unchanged</tspan><tspan x="82" dy="17.5">· Exchange: counterparty A → B (SFTP file round-trip → synchronous REST call)</tspan><tspan x="82" dy="17.5">· Output: parse returned file → aggregate responses and write file</tspan><tspan x="82" dy="17.5">· Ready: new, file-availability sensor</tspan></text>
+<text x="60" y="671.4" font-family='system-ui, -apple-system, "PingFang SC", "Helvetica Neue", Arial, sans-serif' font-size="12" fill="#6b6b68" text-anchor="start"><tspan x="60" dy="0">Assumption A1: System B is synchronous. If it is asynchronous, a polling stage must follow Exchange.</tspan></text>
+</svg>
