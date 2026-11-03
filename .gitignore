@@ -1,0 +1,27 @@
+.DS_Store
+._*
+Thumbs.db
+desktop.ini
+
+.idea/
+.vscode/
+
+*.swp
+*.swo
+*~
+
+# Office 临时锁文件
+~$*
+
+# 凭据与本地配置
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*secret*
+*credential*
+
+# 系统级导出与缓存
+*.tmp
+.cache/

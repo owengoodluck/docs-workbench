@@ -1,0 +1,29 @@
+* text=auto eol=lf
+
+*.md        text diff=markdown
+*.mmd       text linguist-language=Mermaid
+*.drawio    text linguist-language=XML
+*.excalidraw text linguist-language=JSON
+*.svg       text diff=markdown
+
+*.png       binary
+*.jpg       binary
+*.jpeg      binary
+*.gif       binary
+*.pdf       binary
+*.pptx      binary
+*.docx      binary
+*.xlsx      binary
+*.zip       binary
+*.sketch    binary
+
+# ---- Git LFS（当前未启用）----
+# 本机未安装 git-lfs，直接启用会让提交失败。
+# 需要时执行：brew install git-lfs && git lfs install
+# 然后取消下面注释，并对已有二进制执行 git lfs migrate import --include="*.png,*.pdf,*.pptx"
+#
+# *.png  filter=lfs diff=lfs merge=lfs -text
+# *.jpg  filter=lfs diff=lfs merge=lfs -text
+# *.pdf  filter=lfs diff=lfs merge=lfs -text
+# *.pptx filter=lfs diff=lfs merge=lfs -text
+# *.docx filter=lfs diff=lfs merge=lfs -text
